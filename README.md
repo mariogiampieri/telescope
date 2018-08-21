@@ -1,10 +1,10 @@
 
 ## TODO:
-- set up testing environment
-- a new virtual environment, to use for the walkthrough; 
-- set up the requirements.txt file
+- ~~set up testing environment
+- ~~a new virtual environment, to use for the walkthrough; 
+- ~~set up the requirements.txt file
 - ~~figure out how to handle file access (either through s3 or dropbox or postgis)~~ use boto3 to access kawsay s3 bucket with files
-- upload files to s3
+- upload files to s3 (in process; very slow, lots of files which are going to bucket in Sao Paolo)
 
 ## Objetivos Generales:
 A nivel global un tercio de los residentes urbanos vive en asentamientos informales, en condiciones muy precarias, muchas veces sin acceso a servicios básicos como agua, saneamiento y electricidad. Mientras tanto, miles de organizaciones –empresariales, civiles y de gobierno- trabajan para proveer estos servicios a través de soluciones alternativas, asequibles y sostenibles de micro-infraestructura. Sin embargo, la mayoría de ellas coincide en tener un gran obstáculo: el acceso a información relevante, precisa y oportuna que pueda ser utilizada para tomar decisiones estratégicas, llegar con servicios a nuevas comunidades necesitadas, y monitorear su impacto a través del tiempo.
@@ -31,6 +31,8 @@ This project will rely heavily on the Python programming language and associated
 ### Pip
 Pip is a package manager for Python. It allows you to easily install third-party packages to use with Python. It can be installed using the [instructions on the PyPA website](https://pip.pypa.io/en/stable/installing/). Pip will be used to install the rest of the dependencies for this project
 
+Once pip is installed, we can use it to install all of the Python dependencies required for this project by typing `pip install -r requirements.txt` from the project directory. (This tells pip to read the requirements.txt file, which contains all of the necessary python packages for this project).
+
 ### Virtual Environment
 `virtualenv` is a pip package that is used to isolate python packages for a specific folder. In some cases, a project will require versions of packages other than ones used by your operating system's copy of python. The same is true of dependencies of packages that a project requires. `virtualenv` allows you to isolate python packages so as to not interfere with your system python. [This guide](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) has a great description of the install process, but in a nutshell you can use the following commands:
 - `pip install virtualenv`
@@ -41,9 +43,11 @@ Pip is a package manager for Python. It allows you to easily install third-party
 
 You may find it easier/more pleasant to use the pip package `virtualenvwrapper` when working with virtual environments. Installation instructions can be found [here](https://docs.python-guide.org/dev/virtualenvs/#virtualenvwrapper).
 
-- jupyter
-- create virtualenv for python 3.x
-- make requirements.txt (rasterio, tippecanoe, pandas, geopandas, label-maker, gdal, shapely, boto3)
+### Tippecanoe
+Tippecanoe is a Mapbox utility that builds vector tiles datasets from large datasets and is used by label-maker to prepare data for training. It is easy to install on OSX and Linux, but to install on Windows you have to build from source. Let's chat if this is required.
+
+### Jupyter (optional)
+[Jupyter notebooks](http://jupyter.org/) is a great way to run smaller chunks of Python code at a time. It is not required (you can run python scripts from the terminal or through a number of interpreters) but is an option. It can be installed with pip or Anaconda as [explained here](http://jupyter.org/install.html).
 
 ## Topics
 ### phase 1

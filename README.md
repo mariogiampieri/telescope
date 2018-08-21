@@ -1,9 +1,10 @@
 
-## TODO:##
+## TODO:
 - set up testing environment
 - a new virtual environment, to use for the walkthrough; 
 - set up the requirements.txt file
-- figure out how to handle file access (either through s3 or dropbox or postgis)
+- ~~figure out how to handle file access (either through s3 or dropbox or postgis)~~ use boto3 to access kawsay s3 bucket with files
+- upload files to s3
 
 ## Objetivos Generales:
 A nivel global un tercio de los residentes urbanos vive en asentamientos informales, en condiciones muy precarias, muchas veces sin acceso a servicios básicos como agua, saneamiento y electricidad. Mientras tanto, miles de organizaciones –empresariales, civiles y de gobierno- trabajan para proveer estos servicios a través de soluciones alternativas, asequibles y sostenibles de micro-infraestructura. Sin embargo, la mayoría de ellas coincide en tener un gran obstáculo: el acceso a información relevante, precisa y oportuna que pueda ser utilizada para tomar decisiones estratégicas, llegar con servicios a nuevas comunidades necesitadas, y monitorear su impacto a través del tiempo.
@@ -28,7 +29,7 @@ This project will rely heavily on the Python programming language and associated
 - pip
 - virtualenv
 - create virtualenv for python 3.x
-- make requirements.txt (rasterio, tippecanoe, pandas, geopandas, label-maker, gdal, shapely)
+- make requirements.txt (rasterio, tippecanoe, pandas, geopandas, label-maker, gdal, shapely, boto3)
 
 ## Topics
 ### phase 1

@@ -25,9 +25,23 @@ El objetivo general del proyecto es explorar las dinámicas físicas, geológica
   - bringing it all together
   
 ## Getting Started
-This project will rely heavily on the Python programming language and associated tools to build and use tools to investigate urban areas. It requires a bit of setup, for which I recommend using a virtual environment so as to not accidentally break your system python environment.
-- pip
-- virtualenv
+**Start by cloning this repository on your local machine** (using `git clone  https://github.com/mariogiampieri/telescope.git`).
+This project will rely heavily on the Python programming language and associated tools to build and use tools to investigate urban areas. It requires a bit of setup, for which I recommend using a virtual environment so as to not accidentally break your system python environment. The following steps will guide you through the Python installation process.
+
+### Pip
+Pip is a package manager for Python. It allows you to easily install third-party packages to use with Python. It can be installed using the [instructions on the PyPA website](https://pip.pypa.io/en/stable/installing/). Pip will be used to install the rest of the dependencies for this project
+
+### Virtual Environment
+`virtualenv` is a pip package that is used to isolate python packages for a specific folder. In some cases, a project will require versions of packages other than ones used by your operating system's copy of python. The same is true of dependencies of packages that a project requires. `virtualenv` allows you to isolate python packages so as to not interfere with your system python. [This guide](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) has a great description of the install process, but in a nutshell you can use the following commands:
+- `pip install virtualenv`
+- `cd telescope`
+- `virtualenv telescope` <- this creates a virtual environment within our project folder called 'telescope', although you can name it whatever you want.
+- To enable the virtual environment, change into the project directory and type `source telescope/bin/activate`. You should now see `telescope` in your command prompt. 
+- When you are finished, type `deactivate`.
+
+You may find it easier/more pleasant to use the pip package `virtualenvwrapper` when working with virtual environments. Installation instructions can be found [here](https://docs.python-guide.org/dev/virtualenvs/#virtualenvwrapper).
+
+- jupyter
 - create virtualenv for python 3.x
 - make requirements.txt (rasterio, tippecanoe, pandas, geopandas, label-maker, gdal, shapely, boto3)
 

@@ -1,7 +1,7 @@
 
 ## TODO:
 - ~~set up testing environment
-- ~~a new virtual environment, to use for the walkthrough; 
+- a new virtual environment, to use for the walkthrough;~~ 
 - ~~set up the requirements.txt file
 - ~~figure out how to handle file access (either through s3 or dropbox or postgis)~~ use boto3 to access kawsay s3 bucket with files
 - upload files to s3 (in process; very slow, lots of files which are going to bucket in Sao Paolo)

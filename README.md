@@ -1,5 +1,5 @@
 
-![Lima 1984 - present] (./img/lima_gif_02s.gif)
+![Lima 1984 - present](./img/lima_gif_02s.gif)
 *Lima Sur, 1984-present*
 
 ## TODO:

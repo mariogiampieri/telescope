@@ -1,4 +1,7 @@
 
+![Lima 1984 - present] (./img/lima_gif_02s.gif)
+*Lima Sur, 1984-present*
+
 ## TODO:
 - ~~set up testing environment~~
 - ~~a new virtual environment, to use for the walkthrough;~~ 

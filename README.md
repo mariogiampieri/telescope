@@ -1,13 +1,11 @@
+## Mapeando la Lima periférica con data ##
+*UTEC Proyecto Interdiscipinario III, Primavera 2018*
+
+*Dr. Jorge Abad, Mario Giampieri, Sofia Garcia*
+
 
 ![Lima 1984 - present](./img/lima_gif_02s.gif)
 *Lima Sur, 1984-present*
-
-## TODO:
-- ~~set up testing environment~~
-- ~~a new virtual environment, to use for the walkthrough;~~ 
-- ~~set up the requirements.txt file~~
-- ~~figure out how to handle file access (either through s3 or dropbox or postgis)~~ use boto3 to access kawsay s3 bucket with files
-- upload files to s3 (in process; very slow, lots of files which are going to bucket in Sao Paolo)
 
 ## Objetivos Generales:
 A nivel global un tercio de los residentes urbanos vive en asentamientos informales, en condiciones muy precarias, muchas veces sin acceso a servicios básicos como agua, saneamiento y electricidad. Mientras tanto, miles de organizaciones –empresariales, civiles y de gobierno- trabajan para proveer estos servicios a través de soluciones alternativas, asequibles y sostenibles de micro-infraestructura. Sin embargo, la mayoría de ellas coincide en tener un gran obstáculo: el acceso a información relevante, precisa y oportuna que pueda ser utilizada para tomar decisiones estratégicas, llegar con servicios a nuevas comunidades necesitadas, y monitorear su impacto a través del tiempo.

@@ -6,9 +6,6 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="aoi_boundary20180718123041238" name="aoi_boundary">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="2_22_2017_30cm_8Band_Ortho20180823132405464" name="2-22-2017_30cm_8Band_Ortho">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Red_gasoducto20180823124304842" name="Red_gasoducto">
       <customproperties/>
     </layer-tree-layer>
@@ -51,6 +48,12 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Lima_Districts20180718122755099" name="Lima_Districts">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Stamen_Terrain20180823123933626" name="Stamen Terrain">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Stamen_Terrain_Background20180823124023860" name="Stamen Terrain Background">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Stamen_Terrain20180823124545163" name="Stamen Terrain">
       <customproperties/>
     </layer-tree-layer>
@@ -59,10 +62,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>287293.4121374698006548</xmin>
-      <ymin>8659027.6151986550539732</ymin>
-      <xmax>287677.46741743589518592</xmax>
-      <ymax>8659768.36888903193175793</ymax>
+      <xmin>284928.06920983421150595</xmin>
+      <ymin>8652117.69513242319226265</ymin>
+      <xmax>289615.24434720689896494</xmax>
+      <ymax>8661158.1704535000026226</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -82,8 +85,8 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="x_runner_points_demo20180718124140787"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="aoi_boundary20180718123041238"/>
-      <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stamen_Terrain20180823123933626"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="Streets20180823123645767"/>
+      <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stamen_Terrain20180823123933626"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stamen_Terrain_Background20180823124023860"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="aoi_boundary20180718123023145"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="Lima_Districts20180718122755099"/>
@@ -108,7 +111,6 @@
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="p320180718124004366"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="p120180718123424068"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Topomapper20180823124006458"/>
-      <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="2_22_2017_30cm_8Band_Ortho20180823132405464"/>
       <layer_coordinate_transform destAuthId="EPSG:32718" srcAuthId="EPSG:32718" srcDatumTransform="-1" destDatumTransform="-1" layerid="p120180718123410931"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
@@ -126,22 +128,18 @@
       <item>p420180718123504720</item>
       <item>blocks_lacking_basic_services_wgs8420180823123645749</item>
       <item>Streets20180823123645767</item>
+      <item>Stamen_Terrain20180823123933626</item>
+      <item>Stamen_Terrain_Background20180823124023860</item>
       <item>Red_agua20180823124212496</item>
       <item>Red_alcantarillado20180823124237210</item>
       <item>Red_gasoducto20180823124304842</item>
       <item>Stamen_Terrain20180823124545163</item>
-      <item>2_22_2017_30cm_8Band_Ortho20180823132405464</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aoi_boundary" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="aoi_boundary20180718123041238" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2-22-2017_30cm_8Band_Ortho" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="2_22_2017_30cm_8Band_Ortho20180823132405464" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Red_gasoducto" showFeatureCount="0">
@@ -214,6 +212,16 @@
         <legendlayerfile isInOverview="0" layerid="Lima_Districts20180718122755099" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Stamen Terrain" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Stamen_Terrain20180823123933626" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Stamen Terrain Background" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Stamen_Terrain_Background20180823124023860" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Stamen Terrain" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Stamen_Terrain20180823124545163" visible="1"/>
@@ -221,73 +229,6 @@
     </legendlayer>
   </legend>
   <projectlayers>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>284512.79999999998835847</xmin>
-        <ymin>8653324.20000000111758709</ymin>
-        <xmax>291861</xmax>
-        <ymax>8660856.90000000037252903</ymax>
-      </extent>
-      <id>2_22_2017_30cm_8Band_Ortho20180823132405464</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Kawsay_data/APMQ6977/2-22-2017_30cm_8Band_Ortho/2-22-2017_30cm_8Band_Ortho.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>2-22-2017_30cm_8Band_Ortho</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=utm +zone=18 +south +datum=WGS84 +units=m +no_defs</proj4>
-          <srsid>3168</srsid>
-          <srid>32718</srid>
-          <authid>EPSG:32718</authid>
-          <description>WGS 84 / UTM zone 18S</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
-        <noDataList bandNo="4" useSrcNoData="0"/>
-        <noDataList bandNo="5" useSrcNoData="0"/>
-        <noDataList bandNo="6" useSrcNoData="0"/>
-        <noDataList bandNo="7" useSrcNoData="0"/>
-        <noDataList bandNo="8" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>375</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>395</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>538</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>260274.65899999998509884</xmin>
@@ -296,7 +237,7 @@
         <ymax>8719845.96980000101029873</ymax>
       </extent>
       <id>Lima_Districts20180718122755099</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Physical/Lima_Districts.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Physical/Lima_Districts.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -423,14 +364,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -448,7 +389,7 @@
         <ymax>8719845.96979999914765358</ymax>
       </extent>
       <id>Lima_InterDistricts20180718122846267</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Physical/Lima_InterDistricts.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Physical/Lima_InterDistricts.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -526,14 +467,14 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -551,7 +492,7 @@
         <ymax>8696324.77563215047121048</ymax>
       </extent>
       <id>Red_agua20180823124212496</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de agua potable/Red_agua.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de agua potable/Red_agua.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -820,18 +761,17 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -865,7 +805,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8699888.06407157517969608</ymax>
       </extent>
       <id>Red_alcantarillado20180823124237210</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de alcantarillado/Red_alcantarillado.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de alcantarillado/Red_alcantarillado.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1101,18 +1041,17 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1146,7 +1085,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8683156.83000000007450581</ymax>
       </extent>
       <id>Red_gasoducto20180823124304842</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de gasoducto/Red_gasoducto.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/1_DIAGNOSTICO_TERRITORIAL/10_Servicios_Basicos/Capas/Red de gasoducto/Red_gasoducto.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1402,18 +1341,17 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1446,8 +1384,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Stamen_Terrain20180823124545163</id>
-      <datasource>.</datasource>
+      <id>Stamen_Terrain20180823123933626</id>
+      <datasource></datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1481,6 +1419,90 @@ def my_form_open(dialog, layer, feature):
         <property key="zmin" value="0"/>
       </customproperties>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924390673637</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Stamen_Terrain20180823124545163</id>
+      <datasource></datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="http://maps.stamen.com/">Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL</attribution>
+      <layername>Stamen Terrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://a.tile.stamen.com/terrain/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="Stamen Terrain"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="20"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="PyTiledLayer">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924390673637</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Stamen_Terrain_Background20180823124023860</id>
+      <datasource></datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <attribution href="http://maps.stamen.com/">Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL</attribution>
+      <layername>Stamen Terrain Background</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="blendMode" value="SourceOver"/>
+        <property key="brigthness" value="0"/>
+        <property key="contrast" value="1"/>
+        <property key="credit" value="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL"/>
+        <property key="creditVisibility" value="0"/>
+        <property key="grayscaleRender" value="0"/>
+        <property key="serviceUrl" value="http://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.png"/>
+        <property key="smoothRender" value="1"/>
+        <property key="title" value="Stamen Terrain Background"/>
+        <property key="transparency" value="0"/>
+        <property key="yOriginTop" value="1"/>
+        <property key="zmax" value="20"/>
+        <property key="zmin" value="0"/>
+      </customproperties>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>260511.75952903646975756</xmin>
@@ -1489,7 +1511,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8710239.69923300854861736</ymax>
       </extent>
       <id>Streets20180823123645767</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Infrastructure/Streets.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Infrastructure/Streets.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1592,14 +1614,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1617,7 +1639,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8702726.37100518122315407</ymax>
       </extent>
       <id>aoi_boundary20180718123023145</id>
-      <datasource>../../kawsay/data/aoi_boundary.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/aoi_boundary.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1731,14 +1753,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -1756,7 +1778,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8659680.66599626466631889</ymax>
       </extent>
       <id>aoi_boundary20180718123041238</id>
-      <datasource>../../kawsay/data/aoi_boundary.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/aoi_boundary.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2012,18 +2034,17 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2057,7 +2078,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-11.72868359987461595</ymax>
       </extent>
       <id>blocks_lacking_basic_services_wgs8420180823123645749</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Infrastructure/blocks_lacking_basic_services_wgs84.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Infrastructure/blocks_lacking_basic_services_wgs84.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2496,18 +2517,17 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2541,7 +2561,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>-11.72904855074995112</ymax>
       </extent>
       <id>education_attainment20180718122940871</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Demographics/education_attainment.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Demographics/education_attainment.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2910,14 +2930,14 @@ def my_form_open(dialog, layer, feature):
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -2935,7 +2955,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8702726.37100518122315407</ymax>
       </extent>
       <id>human_development_index20180718122936500</id>
-      <datasource>../../../../Dropbox (MIT)/PLAM/Data/PLAM_GovData/Demographics/human_development_index.shp</datasource>
+      <datasource>/Users/marioag/Dropbox (MIT)/PLAM/Data/PLAM_GovData/Demographics/human_development_index.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3284,18 +3304,17 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3329,7 +3348,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8659268.08609106950461864</ymax>
       </extent>
       <id>p120180718123424068</id>
-      <datasource>../../kawsay/data/p1.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/p1.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3575,14 +3594,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3616,7 +3635,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8659015.15433447435498238</ymax>
       </extent>
       <id>p220180718123440948</id>
-      <datasource>../../kawsay/data/p2.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/p2.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3862,14 +3881,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3903,7 +3922,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8659501.55672628246247768</ymax>
       </extent>
       <id>p320180718123453482</id>
-      <datasource>../../kawsay/data/p3.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/p3.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4149,14 +4168,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -4190,7 +4209,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>8659401.51121009327471256</ymax>
       </extent>
       <id>p420180718123504720</id>
-      <datasource>../../kawsay/data/p4.shp</datasource>
+      <datasource>/Users/marioag/Documents/GitHub/kawsay/data/p4.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4436,14 +4455,14 @@ def my_form_open(dialog, layer, feature):
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>../../kawsay/data</annotationform>
+      <annotationform>/Users/marioag/Documents/GitHub/kawsay/data</annotationform>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <editform>../../kawsay/data</editform>
+      <editform>/Users/marioag/Documents/GitHub/kawsay/data</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>../../kawsay/data</editforminitfilepath>
+      <editforminitfilepath>/Users/marioag/Documents/GitHub/kawsay/data</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -4498,24 +4517,18 @@ def my_form_open(dialog, layer, feature):
       <LayerSnappingList type="QStringList">
         <value>Lima_Districts20180718122755099</value>
         <value>Lima_InterDistricts20180718122846267</value>
-        <value>Red_agua20180823124212496</value>
-        <value>Red_alcantarillado20180823124237210</value>
-        <value>Red_gasoducto20180823124304842</value>
-        <value>Streets20180823123645767</value>
         <value>aoi_boundary20180718123023145</value>
         <value>aoi_boundary20180718123041238</value>
-        <value>blocks_lacking_basic_services_wgs8420180823123645749</value>
         <value>education_attainment20180718122940871</value>
         <value>human_development_index20180718122936500</value>
         <value>p120180718123424068</value>
         <value>p220180718123440948</value>
         <value>p320180718123453482</value>
         <value>p420180718123504720</value>
+        <value>blocks_lacking_basic_services_wgs8420180823123645749</value>
+        <value>Streets20180823123645767</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -4544,14 +4557,8 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -4568,9 +4575,6 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>

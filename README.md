@@ -33,9 +33,17 @@ This project will rely heavily on the Python programming language and associated
 Anaconda is a great development environment for python, and makes installing certain packages much easier than using pip alone: https://www.anaconda.com/download/. It also makes it easy to manage and switch between python 2.* and python 3.*. Install the Python 2.7 version.
 
 - create virtual env using anaconda
-- `activate telescope`
-- `conda install gdal pandas geopandas shapely fiona boto3`
+`conda create --name telescope python=2.7`
+- activate virtual environment
+`activate telescope`
+- install required software packages
+`conda install gdal pandas geopandas shapely fiona boto3 cython`
 - enter 'y' when prompted to confirm installation of packages and their dependencies.
+- finally, install the Amazon Web Services (AWS) command line interface tool and the Folium mapping library using pip:
+`pip install awscli folium`
+
+### Configure AWS credentials
+From the command prompt, type `aws configure`. This will start a wizard and will ask for the aws_access_key_id, aws_secret_access_key, and a few other parameters. Enter the values I sent via email here. Once this is configured, we will be able to use boto3 to access data from the S3 bucket.
 
 We are now ready to begin programming! Type `jupyter notebook` from the command prompt and navigate to the python_notebooks folder.
 

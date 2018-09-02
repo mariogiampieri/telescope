@@ -1,0 +1,8 @@
+2018/09/02 16:20:40 Starting cygwin install, version 2.893
+2018/09/02 16:20:40 User has backup/restore rights
+2018/09/02 16:20:40 Current Directory: C:\Users\marioag\Documents\GitHub\telescope\cygwin\cygwin-packages
+2018/09/02 16:20:40 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/09/02 16:20:43 source: network install
+2018/09/02 16:20:54 source: from local dir
+2018/09/02 16:20:59 root: C:\cygwin64 system
+2018/09/02 16:21:43 Ending cygwin install

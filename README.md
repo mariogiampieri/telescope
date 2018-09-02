@@ -25,7 +25,7 @@ El objetivo general del proyecto es explorar las dinámicas físicas, geológica
 4. Reporte de recomendaciones para estas áreas afectadas.
   - bringing it all together
   
-## Getting Started
+## Getting Started: Phase 1
 **Start by cloning this repository on your local machine** (using `git clone  https://github.com/mariogiampieri/telescope.git`).
 This project will rely heavily on the Python programming language and associated tools to build and use tools to investigate urban areas. It requires a bit of setup. The following steps will guide you through the Python installation process.
 
@@ -46,6 +46,36 @@ Anaconda is a great development environment for python, and makes installing cer
 From the command prompt, type `aws configure`. This will start a wizard and will ask for the aws_access_key_id, aws_secret_access_key, and a few other parameters. Enter the values I sent via email here. Once this is configured, we will be able to use boto3 to access data from the S3 bucket.
 
 We are now ready to begin programming! Type `jupyter notebook` from the command prompt and navigate to the python_notebooks folder.
+
+## Getting Started: Phase 2
+We are now ready to dive into the second phase.
+
+### Create a Python 3.6 virtualenv
+- from the telescope directory, create a new virtual environment using conda:
+`conda create --name telescope3 python=3.6`
+
+### Install Cygwin
+This allows us to install tippecanoe, which is a dependency of label-maker. Navigate to the cygwin folder in this repository and type `setup-x86_64.exe` at the prompt. This will launch a wizard which will install and configure cygwin. Choose the /telescopecygwin/cygwin-packages/ directory as the package directory.
+
+Add cygwin to path variable: search for 'system properties' in windows, and add the cygwin install location to the environment variables: https://www.howtogeek.com/howto/41382/how-to-use-linux-commands-in-windows-with-cygwin/
+
+Select the default settings until you get to a screen asking which packages you want to install. Install the following packages by using the search bar at the top of the window:
+- 'make'
+- 'cmake'
+- 'gcc-g++'
+- 'libsqlite3-dev'
+- 'libsqlite3_0'
+- 'zlib-devel'
+- 'zlib'
+
+Finish the installation process, and be sure to add the Desktop icon, as it makes it easy to launch a cygwin terminal window.
+
+Use a text editor to edit the 'Makefile' file in the tippecanoe directory. Open the file, and add `-U__STRICT__ANSI__` to the end of line 10 so it reads `CXXFLAGS := $(CXXFLAGS) -std=c++11 -U__STRICT_ANSI__`. Save and close the file.
+
+Launch the cygwin terminal window, and navigate to the tippecanoe folder. type `make -j` to prepare for installation, and then `make install` once it's ready. Tippecanoe is now installed!
+
+### actually install label-maker
+...
 
 ## Topics
 ### phase 1

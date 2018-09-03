@@ -76,7 +76,7 @@ def downloadForSAVI():
     exit
 
 # listBuckets()
-# connectToBucket()
-# listFiles('.txt')
+connectToBucket()
+listFiles('.txt')
 # listFilesForYear(2018)
 # getFileDates()

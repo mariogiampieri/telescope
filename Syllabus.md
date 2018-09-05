@@ -5,11 +5,20 @@ A nivel global un tercio de los residentes urbanos vive en asentamientos informa
 
 El objetivo general del proyecto es explorar las dinámicas físicas, geológicas y sociales de asentamientos humanos informales en relación al cambio climático, y cómo estas son afectadas por este último. El objetivo final es generar un sistema de análisis de riesgo y resiliencia utilizando herramientas de procesamiento de datos, inteligencia artificial (Ai) y algoritmos de aprendizaje, para áreas periféricas urbanas.
 
-### Objectivos Específicos
-- Generar un sistema de procesamiento de imágenes satelitales multibanda para diferenciar patrones de desarrollo, áreas de riesgo, pendientes inhabitables y diferentes zonas ecológicas.
-- Explorar algoritmos de aprendizaje que puedan prever el crecimiento poblacional y morfología urbana en base a imágenes históricas satelitales e información demográfica.
-- Reporte sobre las diferentes maneras en las que los asentamientos humanos son afectados por el cambio climático.
-- Reporte de recomendaciones para estas áreas afectadas.
+
+### Objectivos Específicos y Actividades
+### 1. Desarrollar sistemas de análisis para identificar las características de asentamientos informales de Villa Maria del Triunfo (VMT) y San Juan de Miraflores (SJM)  
+
+  **1.1. Escribir algoritmos de Python para acceder a data de LANDSAT y Copernicus desde “Amazon s3 bucket”**  
+    1.1.1. Instalar python, numpy, gdal, boto3, and git  
+    1.1.2. Usar boto3 para acceder a archivos alojados en s3  
+    1.1.3. Leer y escribir archivos desde s3 satisfactoriamente  
+    **1.2. Usar algoritmos NDVI y SAVI para identificar cambios de uso de suelo a lo largo del tiempo**    
+    1.2.1. Probar diferentes algoritmos para ejecutar procesos NDVI / SAVI (se puede hacer usando gdal o tbtoolbox en c ++) utilizando las diferentes bandas de imagen provistas en las imágenes satelitales  
+    1.2.2. Test different processes to discern things like slope, land use, and ecosystem types from satellite and other capas  
+    1.2.3. Probar diferentes algoritmos para discernir elementos como la pendiente, el uso del suelo y los tipos de ecosistemas de imágenes satelitales y otras capas de información  
+    1.2.4. Automatizar y guardar los resultados a s3  
+    
 
 ### Course Schedule
 *8/23*

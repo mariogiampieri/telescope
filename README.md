@@ -26,6 +26,10 @@ El objetivo general del proyecto es explorar las dinámicas físicas, geológica
   - bringing it all together
   
 ## Getting Started: Phase 1
+
+### Install Git
+Go [here](https://git-scm.com/download/win) to install the Git command line tools. We will use this to access this repository.
+
 **Start by cloning this repository on your local machine** (using `git clone  https://github.com/mariogiampieri/telescope.git`).
 This project will rely heavily on the Python programming language and associated tools to build and use tools to investigate urban areas. It requires a bit of setup. The following steps will guide you through the Python installation process.
 

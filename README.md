@@ -46,13 +46,17 @@ Anaconda is a great development environment for python, and makes installing cer
 - install required software packages
 `conda install gdal pandas geopandas shapely fiona boto3 cython`
 - enter 'y' when prompted to confirm installation of packages and their dependencies.
-- finally, install the Amazon Web Services (AWS) command line interface tool and the Folium mapping library using pip:
-`pip install awscli folium`
+- then, install the Amazon Web Services (AWS) command line interface tool and the Folium mapping library using pip:
+`pip install awscli folium ipykernel`
+- finally, enable jupyter to use our new virtual environement:
+`ipython kernel install --user --name=telescope`
 
 ### Configure AWS credentials
 From the command prompt, type `aws configure`. This will start a wizard and will ask for the aws_access_key_id, aws_secret_access_key, and a few other parameters. Enter the values I sent via email here. Once this is configured, we will be able to use boto3 to access data from the S3 bucket.
 
 We are now ready to begin programming! Type `jupyter notebook` from the command prompt and navigate to the python_notebooks folder.
+
+A new browser window should open. You can navigate to the "python_notebooks" folder and click template. From there, go to the Kernel dropdown menu and select "telescope." We now have access to all of the packages we installed.
 
 ## Getting Started: Phase 2 (for 27 de septiembre)
 We are now ready to dive into the second phase.

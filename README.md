@@ -29,6 +29,9 @@ El objetivo general del proyecto es explorar las dinámicas físicas, geológica
 **Start by cloning this repository on your local machine** (using `git clone  https://github.com/mariogiampieri/telescope.git`).
 This project will rely heavily on the Python programming language and associated tools to build and use tools to investigate urban areas. It requires a bit of setup. The following steps will guide you through the Python installation process.
 
+### QGIS
+QGIS is the premier open source GIS desktop software. It will allow us to easily view our results and create maps for presentations. Use the [OSGeo4Win](https://trac.osgeo.org/osgeo4w/) installer to set up the software.
+
 ### Anaconda
 Anaconda is a great development environment for python, and makes installing certain packages much easier than using pip alone: https://www.anaconda.com/download/. It also makes it easy to manage and switch between python 2.* and python 3.*. Install the Python 2.7 version.
 
@@ -47,7 +50,7 @@ From the command prompt, type `aws configure`. This will start a wizard and will
 
 We are now ready to begin programming! Type `jupyter notebook` from the command prompt and navigate to the python_notebooks folder.
 
-## Getting Started: Phase 2
+## Getting Started: Phase 2 (for 27 de septiembre)
 We are now ready to dive into the second phase.
 
 ### Create a Python 3.6 virtualenv

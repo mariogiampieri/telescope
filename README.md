@@ -39,7 +39,7 @@ QGIS is the premier open source GIS desktop software. It will allow us to easily
 ### Anaconda
 Anaconda is a great development environment for python, and makes installing certain packages much easier than using pip alone: https://www.anaconda.com/download/. It also makes it easy to manage and switch between python 2.* and python 3.*. Install the Python 2.7 version.
 
-- create virtual env using anaconda
+- create virtual env using anaconda from within the telescope/ directory:
 `conda create --name telescope python=2.7`
 - activate virtual environment
 `activate telescope`

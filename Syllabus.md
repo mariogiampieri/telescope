@@ -18,14 +18,25 @@ El objetivo general del proyecto es explorar las dinámicas físicas, geológica
     1.2.2. Test different processes to discern things like slope, land use, and ecosystem types from satellite and other capas  
     1.2.3. Probar diferentes algoritmos para discernir elementos como la pendiente, el uso del suelo y los tipos de ecosistemas de imágenes satelitales y otras capas de información  
     1.2.4. Automatizar y guardar los resultados a s3  
-    
+    **1.3 Desarrollar algoritmos de aprendizaje automatizado para identificar asentamientos informales y viviendas**  
+    1.3.1 Utilizar los conjuntos de datos y parámetros identificados en 1.2 (junto con las imágenes satelitales) como entradas para los algoritmos de aprendizaje automatizado  
+    1.3.2 Iterar usando diferentes características, en diferentes períodos de tiempo, para probar la fortaleza del modelo a través del espacio (en diferentes condiciones geográficas) y el tiempo (diferentes momentos climáticos, políticos, económicos); verificar la capacidad del modelo para predecir en base a diferentes puntos en el tiempo para la data que tenemos disponible
+  ### 2. Interpretar los resultados y proponer soluciones para mejorar la calidad de vida de estos asentamientos.
+  **2.1. Analizar los resultados del modelo y desarrollar reportes sobre los asentamientos humanos en SJM y VMT**  
+  2.1.1. Identificar y analizar las principales características / patrones de crecimiento de las comunidades de SJM y VMT en relación a otros indicadores socioeconómicos  
+  2.1.2. Identificar los principales hotspots de vulnerabilidad frente a riesgos tales como deslizamientos y sismos. (áreas de riesgo reconocidas y que pueden ser predecidas de acuerdo al modelo desarrollado)  
+  2.1.3. Identificar las oportunidades existentes para el desarrollo de infraestructura alternativa (atrapanieblas, energía alternativa, bosques productivos, etc.)  
+  **2.2. Desarrollar recomendaciones para las áreas investigadas**  
+  2.2.1.  Discutir sobre las limitaciones que tienen SJM y VMT para soportar un mayor crecimiento urbano / poblacional, y cuáles son las áreas de mayor riesgo y las que tienen características buenas para el desarrollo urbano -basado en el modelo y percepción personal.  
+  2.2.2.  Desarrollar un reporte de recomendaciones sobre el potencial de crecimiento urbano que al mismo tiempo reduzca los riesgos de las comunidades analizadas.  
+  2.2.3.  Desarrollar recomendaciones para potenciar el acceso de ambas comunidades a servicios e infraestructura alternativa teniendo en cuenta sus condiciones socioeconómicas, urbanas y de riesgo previamente analizadas.
 
 ### Course Schedule
 *8/23*
 
 Introduction to the project and the overarching themes (listed above). What are the conditions of growth in Lima? What are the issues currently faced in informal settlements today?
 
-*8/30*
+#### *8/30*
 
 **Diseño del plan de trabajo (Fase 1)**
 
@@ -34,45 +45,79 @@ What are the specific questions we are trying to answer? What are the tools and 
 
 We will discuss together strategies for addressing the research questions we have set out together and create a work plan for the following weeks.
 
-*9/6*
+#### *9/6*
+**Introduction to the software development environment / project setup.**
+1.1.1 Instalar python, numpy, gdal, boto3, and git
 
-Introduction to the software development environment / project setup.
+#### *9/13*
 
-*9/13*
+**Discussion of LANDSAT best practices; discuss initial results; adjust workflow as necessary**
 
-Discussion of LANDSAT best practices; discuss initial results; adjust workflow as necessary
+Tarea:
 
-*9/20*
+_come prepared with software environment set up_
+- _1.1.2 Usar boto3 para acceder a archivos alojados en s3_
+- _1.1.3 Leer y escribir archivos desde s3 satisfactoriamente_
+
+Go over algorithms developed for data processing and retrieval plan out next steps in terms of using machine learning to further explore and predict urban patterns.
+Introduction to raster processing
+
+1.2.1 Probar diferentes algoritmos para ejecutar procesos NDVI / SAVI (se puede hacer usando gdal o tbtoolbox en c ++) utilizando las diferentes bandas de imagen provistas en las imágenes satelitales
+
+
+#### *9/20*
 
 **Preliminary Design (Fase 1) Review**
 
+1.2.2 Test different processes to discern things like slope, land use, and ecosystem types from satellite and other capas
 
-Go over algorithms developed for data processing and retrieval plan out next steps in terms of using machine learning to further explore and predict urban patterns.
+1.2.3 Probar diferentes algoritmos para discernir elementos como la pendiente, el uso del suelo y los tipos de ecosistemas de imágenes satelitales y otras capas de información
 
-*9/27*
+1.2.4 Automatizar y guardar los resultados a s3
 
-Explore ways to use machine learning to extend and optimize our initial results.
 
-*10/4*
+#### *9/27*
 
-Discuss machine learning workflow and check in
+**1.3 Desarrollar algoritmos de aprendizaje automatizado para identificar asentamientos informales y viviendas**
 
-*10/11*
+Tarea: 
+- Make sure machine learning tools are set up properly
 
-Review in advance of Phase Two presentations the following week.
+1.3.1 Utilizar los conjuntos de datos y parámetros identificados en 1.2 (junto con las imágenes satelitales) como entradas para los algoritmos de aprendizaje automatizado
 
-*10/18*
 
-**Fase 2 Presentations**
+#### *10/4*
 
-*10/25*
+1.3.2 Iterar usando diferentes características, en diferentes períodos de tiempo, para probar la fortaleza del modelo a través del espacio (en diferentes condiciones geográficas) y el tiempo (diferentes momentos climáticos, políticos, económicos); verificar la capacidad del modelo para predecir en base a diferentes puntos en el tiempo para la data que tenemos disponible
 
-Discussion of synthesis of results: what can our results help decision makers learn about the periphery of Lima? How can these results be used to improve the quality of life in peripheral areas? What is missing from our analysis?
+#### *10/11*
 
-*11/01*
+**Fase 1 Presentations: Review results from machine learning tests, as well as NDVI and SAVI**
 
-Final review of analysis and recommendations. Preparation for final presentations the following week.
+#### *10/18*
 
-*11/08*
+2.1.1 Identificar y analizar las principales características / patrones de crecimiento de las comunidades de SJM y VMT en relación a otros indicadores socioeconómicos
+
+2.1.2 Identificar los principales hotspots de vulnerabilidad frente a riesgos tales como deslizamientos y sismos. (áreas de riesgo reconocidas y que pueden ser predecidas de acuerdo al modelo desarrollado)
+
+#### *10/25*
+
+Tarea: 
+- 2.1.3 Identificar las oportunidades existentes para el desarrollo de infraestructura alternativa (atrapanieblas, energía alternativa, bosques productivos, etc.)
+
+2.2.1 Discutir sobre las limitaciones que tienen SJM y VMT para soportar un mayor crecimiento urbano / poblacional, y cuáles son las áreas de mayor riesgo y las que tienen características buenas para el desarrollo urbano -basado en el modelo y percepción personal.
+
+
+#### *11/01*
+
+2.2.2 Desarrollar un reporte de recomendaciones sobre el potencial de crecimiento urbano que al mismo tiempo reduzca los riesgos de las comunidades analizadas 
+
+2.2.3 Desarrollar recomendaciones para potenciar el acceso de ambas comunidades a servicios e infraestructura alternativa teniendo en cuenta sus condiciones socioeconómicas, urbanas y de riesgo previamente analizadas.
+
+**Final review of analysis and recommendations. Preparation for final presentations the following week.**
+
+**Discussion of synthesis of results: what can our results help decision makers learn about the periphery of Lima? How can these results be used to improve the quality of life in peripheral areas? What is missing from our analysis?**
+
+#### *11/08*
 
 **Final Presentations at UTEC**

@@ -70,9 +70,10 @@ def getLS08(cover_threshold=15):
     x = {}
     for each in meta_files:
         z = s3_client.get_object(Bucket='kawsay-utec', Key=each)
-        
-    to_download = []
+        cosa = z['Body'].read().splitlines()[67]
+        x[each] = cosa
     print "checking files..."
+    to_download = []
     for every in x:
         cloud_cover = float(x[every].split('=')[1])
         # cloud_cover_land = float(x[every][1].split('=')[1])
@@ -81,7 +82,7 @@ def getLS08(cover_threshold=15):
         if cloud_cover <= cover_threshold:
             to_download.append(base_name)
     
-    exts = ['ANG.txt', 'sr_band7.tif', 'sr_band6.tif', 'sr_band5.tif', 'sr_band4.tif', 'sr_band3.tif', 'sr_band2.tif', 'sr_band1.tif', 'sr_aerosol.tif', 'radsat_qa.tif', 'pixel_qa.tif']
+    exts = ['MTL.txt']#['ANG.txt', 'sr_band7.tif', 'sr_band6.tif', 'sr_band5.tif', 'sr_band4.tif', 'sr_band3.tif', 'sr_band2.tif', 'sr_band1.tif', 'sr_aerosol.tif', 'radsat_qa.tif', 'pixel_qa.tif']
     each_band = []
     for ea in to_download:
         for a in exts:
@@ -105,8 +106,8 @@ def downloadForEVI():
     exit
 
 def downloadForSAVI():
-    exit
-
+    exit    
+    
 # getLS08()
 # listBuckets()
 # connectToBucket()

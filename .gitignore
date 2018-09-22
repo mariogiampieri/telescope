@@ -3,7 +3,8 @@ config
 tippecanoe/
 *.csv
 **/*.tif
-**/*_ANG.txt
+**/*.txt
+**/*.zip
 
 .ipynb_checkpoints/
 python_notebooks/.ipynb_checkpoints/

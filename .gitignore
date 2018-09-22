@@ -2,7 +2,7 @@
 config
 tippecanoe/
 *.csv
-**/*.tif
+**/*.tif*
 **/*.txt
 **/*.zip
 **/*.tif.aux.xml

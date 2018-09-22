@@ -71,7 +71,7 @@ def getFileDates():
 
 def getLS08(cover_threshold=15):
     meta_ext = "MTL.txt"
-    meta_files = listFiles(meta_ext)
+    meta_files, metafiles5 = listFiles(meta_ext)
     bucket = connectToBucket()
     s3_client = boto3.client('s3')
     x = {}

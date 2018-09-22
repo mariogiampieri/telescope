@@ -9,6 +9,6 @@ tippecanoe/
 **/*.xml
 **/*.ovr
 **/*.aux
-prueba
+
 .ipynb_checkpoints/
 python_notebooks/.ipynb_checkpoints/

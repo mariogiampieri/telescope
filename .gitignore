@@ -5,6 +5,10 @@ tippecanoe/
 **/*.tif
 **/*.txt
 **/*.zip
+**/*.tif.aux.xml
+**/*.xml
+**/*.ovr
+**/*.aux
 
 .ipynb_checkpoints/
 python_notebooks/.ipynb_checkpoints/

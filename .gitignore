@@ -2,8 +2,13 @@
 config
 tippecanoe/
 *.csv
-**/*.tif
-**/*_ANG.txt
+**/*.tif*
+**/*.txt
+**/*.zip
+**/*.tif.aux.xml
+**/*.xml
+**/*.ovr
+**/*.aux
 
 .ipynb_checkpoints/
 python_notebooks/.ipynb_checkpoints/

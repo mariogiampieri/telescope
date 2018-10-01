@@ -5,8 +5,8 @@ import gdal
 # y las demas que necesitamos para hacer el ndvi, evi, savi, etc...
 
 def classifyImage(image):
-    zona_urbana = np.where((imager>=-1)&(image<=1),arr,0) # hay que cambiar el 1 y -1 por el rango de las zonas urbanas
-    zona_natural = np.where((imager>=-1)&(image<=1),arr,0) # hay que cambiar el 1 y -1 por el rango de las zonas naturales
+    zona_urbana = np.where((image>=-1)&(image<=1),arr,0) # hay que cambiar el 1 y -1 por el rango de las zonas urbanas
+    zona_natural = np.where((image>=-1)&(image<=1),arr,0) # hay que cambiar el 1 y -1 por el rango de las zonas naturales
     return zona_urbana, zona_natural
 
 def compareImages(image1, image2):
@@ -20,5 +20,5 @@ def compareImages(image1, image2):
 
 def compareArrays(arr1, arr2):
     # si tiene los resultos como arrays, usa este funcion
-    diff = arr1 = arr2
+    diff = arr1 - arr2
     return diff

@@ -75,7 +75,7 @@ def downloadForEVI():
 def downloadForSAVI():
     exit
 
-# listBuckets()
+listBuckets()
 connectToBucket()
 listFiles('.txt')
 # listFilesForYear(2018)
